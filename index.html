@@ -11,17 +11,19 @@
       font-family: sans-serif;
       margin: 0;
       padding: 0;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
       height: 100vh;
+      display: flex;
+      justify-content: flex-start; /* shift upward */
+      align-items: center;
       text-align: center;
     }
 
     .container {
-      max-width: 90%;
+      height: 85vh; /* fill 85% of screen height */
+      margin-top: 15vh; /* shift content down from top */
+      width: 90%;
       padding: 2em;
+      box-sizing: border-box;
     }
 
     h1 {
@@ -58,4 +60,5 @@
   </div>
 </body>
 </html>
+
 
